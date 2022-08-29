@@ -1,0 +1,74 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif;
+  background-image: url("/src/Assets/PinkSpace.gif");
+  background-size: cover;
+  color: white;
+}
+.App .Page {
+  width: 100%;
+  height: 100%;
+}
+.App #LoadingScreenContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App #LoadingScreenContainer h2 {
+  color: white;
+  font-size: 30px;
+  text-shadow: rgb(248, 129, 148) 2px 2px;
+  position: relative;
+  top: -10%;
+}
+
+h2 {
+  margin: 0;
+  font-size: 30px;
+  text-shadow: rgb(248, 129, 148) 2px 2px;
+  position: relative;
+}
+
+.Bold {
+  font-weight: 700;
+}
+
+.Italic {
+  font-style: italic;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+.height-100 {
+  height: 100%;
+}
+
+.flexRow {
+  display: flex;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}/*# sourceMappingURL=Helpers.css.map */
